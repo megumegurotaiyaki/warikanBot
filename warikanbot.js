@@ -1,3 +1,5 @@
+//割り勘機能なし。一対一の貸付の記録のみ
+
 // @ts-nocheck
 function doPost(e) {
   var replyToken= JSON.parse(e.postData.contents).events[0].replyToken;
